@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 6
+date: 2015-12-15
+img: custom-birth-announcement-scene.png
+alt: Custom Birth Announcement Graphic
+project-date: December 2015
+client: Freelance
+category: Graphic Design
+description: Description goes here.
+
+---

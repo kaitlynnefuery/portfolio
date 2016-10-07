@@ -1,0 +1,79 @@
+# Site settings
+title: Kaitlynne Fuery
+email: kaitlynnefuery@gmail.com
+url: "http://kaitlynnefuery.com"
+description: "Hi there! I'm Kaitlynne - a web developer with a background in design."
+skills: "Web Developer - Graphic Designer - Freelancer"
+meta_author: Kaitlynne Fuery
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+# contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+# disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 96e6d2
+  primary-rgb: "150,230,210"
+  # secondary: 2c3e50 #FD6E8A
+  # secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Kaitlynne Fuery
+  location: Location
+  social: Around the Web
+  # credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/kcfuery
+  - title: facebook
+    url: https://facebook.com/kaitlynne.fuery
+  - title: linkedin
+    url: https://www.linkedin.com/in/kaitlynnefuery
+  - title: github
+    url: https://github.com/kaitlynnefuery
+  - title: instagram
+    url: https://www.instagram.com/kaitlynnefuery/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Berkeley, CA
+
+# Credits content
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+encoding: utf-8
+
+gem 'github-pages', group: :jekyll_plugins
+
+
+#
+# collections:
+#   portfolio:
+#     output: true
+#   assets:
+#     output: true
+#
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - compare
+#   - README.md
+#   - _wip
